@@ -18,7 +18,7 @@ public class App
     public static void main(String args[])
     {
 	List l1=getLinkedList();
-	System.out.println("Testing new branch !!!! ");
+	System.out.println("Testing new branch !! ");
 	if(l1 instanceof ArrayList)
 	{
 	System.out.println("This is arrayList");	
@@ -28,7 +28,6 @@ public class App
     {
     	System.out.println("This is LinkedList");
     }
-	System.out.println("Bingo!!");
     }
 
 public static List getArrayList()
